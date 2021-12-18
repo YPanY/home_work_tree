@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+<input type="text" id="sentence" size = "100">
+<svg id="Tree" width=1024 height=500>
+    <g transform="translate(20,20)">
+        <g class="links"></g>
+        <g class="nodes"></g>
+    </g>
+</svg>
+<pre id="json"></pre>
+</body>
+<script src="dataParser.js"></script>
+<script src="graph.js"></script>
+</html>
